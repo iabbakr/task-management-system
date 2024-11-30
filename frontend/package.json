@@ -1,0 +1,25 @@
+{
+  "homepage": "https://iabbakr.github.io/task-management-system",
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "A simple task management system.",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "Abubakar Ibrahim",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
